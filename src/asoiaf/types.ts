@@ -52,6 +52,7 @@ export interface Card {
   name: string;
   imageUrl: string;
   imageUrlBack?: string;
+  abilities?: string[];
   isCommander?: boolean;
   tacticsCardGroupUrl?: string;
 }
