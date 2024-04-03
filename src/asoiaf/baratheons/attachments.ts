@@ -4,6 +4,7 @@ const cardData: CardData = {
   "Andrew Estermont - First Of The King's Men": {
     name: "Andrew Estermont - First Of The King's Men",
     type: CardTypes.Attachment,
+	abilities: ["First Of The King's Men", 'Loyalty: Stannis Baratheon', 'True Conviction',],
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-andrew-estermont-fotkm.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-andrew-estermont-fotkm-back.png',
     isCommander: true,
@@ -11,18 +12,21 @@ const cardData: CardData = {
   'Andrew Estermont - True Loyalist': {
     name: 'Andrew Estermont - True Loyalist',
     type: CardTypes.Attachment,
+	abilities: ['Loyalty: Stannis Baratheon', 'Order: Incite', 'True Conviction'],
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-andrew-estermont-tl.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-andrew-estermont-tl-back.png',
   },
   'Axell Florent - Fanatical Devotee': {
     name: 'Axell Florent - Fanatical Devotee',
     type: CardTypes.Attachment,
+	abilities: ["Affiliation: R'hllor", 'Intimidating Presence', 'Loyalty: Stannis Baratheon', 'Zealous Fanaticism'],
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-axell-florent-fd.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-axell-florent-fd-back.png',
   },
   "Axell Florent - First Of The Queen's Men": {
     name: "Axell Florent - First Of The Queen's Men",
     type: CardTypes.Attachment,
+	abilities: ["Affiliation: R'hllor", 'Intimidating Presence', 'Loyalty: Stannis Baratheon', 'Stalwart'],
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-axell-florent-fotqm.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-axell-florent-fotqm-back.png',
     isCommander: true,
@@ -30,12 +34,21 @@ const cardData: CardData = {
   'Brienne - The Blue': {
     name: 'Brienne - The Blue',
     type: CardTypes.Attachment,
+	abilities: ['Loyalty: Renly Baratheon', "Renly's Protector"],
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-brienne-tb.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-brienne-tb-back.png',
+  },
+  'Brienne - Rainbow Guard': {
+    name: 'Brienne - Rainbow Guard',
+    type: CardTypes.Attachment,
+	abilities: ['Battle Scars', 'Loyalty: Renly Baratheon'],
+    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-brienne-rg.png',
+    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-brienne-rg-back.png',
   },
   "Cortnay Penrose - Castellan Of Storm's End": {
     name: "Cortnay Penrose - Castellan Of Storm's End",
     type: CardTypes.Attachment,
+	abilities: ['Bookkeeping', 'Loyalty: Renly Baratheon', 'Might Of The Throne'],
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-cortnay-penrose-cose.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-cortnay-penrose-cose-back.png',
     isCommander: true,
@@ -199,12 +212,6 @@ const cardData: CardData = {
     type: CardTypes.Attachment,
     imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-bryce-caron-bto.png',
     imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-bryce-caron-bto-back.png',
-  },
-  'Brienne - Rainbow Guard': {
-    name: 'Brienne - Rainbow Guard',
-    type: CardTypes.Attachment,
-    imageUrl: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-brienne-rg.png',
-    imageUrlBack: 'https://asoiaf-tmg-discord-bot.s3.amazonaws.com/images/hb-brienne-rg-back.png',
   },
   'Parmen Crane - Parmen the Purple': {
     name: 'Parmen Crane - Parmen the Purple',
